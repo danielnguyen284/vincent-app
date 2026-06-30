@@ -2,8 +2,8 @@ import { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "29LAND Management System",
-    short_name: "29LAND",
+    name: "Vincent Management System",
+    short_name: "Vincent",
     description: "Hệ thống quản lý nhà trọ và căn hộ dịch vụ",
     start_url: "/",
     display: "standalone",

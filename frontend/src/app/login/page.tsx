@@ -57,11 +57,8 @@ export default function LoginPage() {
             <Building2 className="h-12 w-12 text-primary shrink-0" />
             <div className="flex flex-col text-left">
               <CardTitle className="text-2xl font-bold text-primary tracking-wide leading-snug">
-                Quản lý & Vận hành 29LAND
+                Quản lý & Vận hành Vincent
               </CardTitle>
-              <p className="text-xs font-semibold text-muted-foreground mt-1 uppercase tracking-widest">
-                by Hoàng Dũng
-              </p>
             </div>
           </div>
         </CardHeader>

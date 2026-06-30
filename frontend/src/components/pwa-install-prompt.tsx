@@ -123,7 +123,7 @@ export function PWAInstallPrompt() {
                 <Download className="w-5 h-5" />
               </div>
               <div className="flex flex-col">
-                <p className="font-semibold text-[15px] leading-tight">Cài đặt 29LAND</p>
+                <p className="font-semibold text-[15px] leading-tight">Cài đặt Vincent</p>
                 <p className="text-[13px] text-muted-foreground mt-0.5">Dùng như App gốc trên máy</p>
               </div>
             </div>
@@ -144,7 +144,7 @@ export function PWAInstallPrompt() {
       <Dialog open={showIOSInstructions} onOpenChange={setShowIOSInstructions}>
         <DialogContent className="sm:max-w-md">
           <DialogHeader>
-            <DialogTitle>Cài đặt 29LAND trên iOS</DialogTitle>
+            <DialogTitle>Cài đặt Vincent trên iOS</DialogTitle>
             <DialogDescription>
               Thêm ứng dụng vào màn hình chính để có trải nghiệm tốt nhất (toàn màn hình, mượt mà hơn).
             </DialogDescription>

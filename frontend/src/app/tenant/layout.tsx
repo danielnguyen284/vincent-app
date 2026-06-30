@@ -71,7 +71,7 @@ export default function TenantLayout({ children }: { children: React.ReactNode }
           <Building2 className="h-6 w-6 text-primary shrink-0 animate-pulse" />
           <div className="flex flex-col text-left">
             <span className="text-[9px] font-bold text-muted-foreground uppercase tracking-widest leading-none">Cổng Khách Thuê</span>
-            <span className="text-sm font-extrabold tracking-wide text-primary leading-tight">29LAND Portal</span>
+            <span className="text-sm font-extrabold tracking-wide text-primary leading-tight">Vincent Portal</span>
           </div>
         </div>
 
@@ -141,7 +141,7 @@ export default function TenantLayout({ children }: { children: React.ReactNode }
             <Building2 className="h-6 w-6 text-primary shrink-0 animate-pulse" />
             <div className="flex flex-col text-left">
               <span className="text-[9px] font-bold text-muted-foreground uppercase tracking-widest leading-none">Cổng Khách Thuê</span>
-              <span className="text-sm font-extrabold tracking-wide text-primary leading-tight">29LAND Portal</span>
+              <span className="text-sm font-extrabold tracking-wide text-primary leading-tight">Vincent Portal</span>
             </div>
           </div>
           

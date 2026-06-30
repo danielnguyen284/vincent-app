@@ -548,7 +548,7 @@ export default function InvoiceDetailPage({ params }: { params: Promise<{ id: st
             </div>
 
             <div className="absolute bottom-6 text-center text-xs text-slate-400 w-full left-0">
-              <p>Hóa đơn được tạo bởi hệ thống quản lý 29LAND</p>
+              <p>Hóa đơn được tạo bởi hệ thống quản lý Vincent</p>
             </div>
           </div>
         </div>

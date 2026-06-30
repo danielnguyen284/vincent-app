@@ -11,7 +11,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "29LAND - Quản lý nhà trọ",
+  title: "Vincent - Quản lý nhà trọ",
   description: "Hệ thống quản lý vận hành nhà trọ thông minh",
   manifest: "/manifest.json",
   icons: {
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "29LAND",
+    title: "Vincent",
   },
 };
 

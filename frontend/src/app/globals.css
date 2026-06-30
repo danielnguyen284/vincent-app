@@ -50,7 +50,7 @@
   --radius-4xl: calc(var(--radius) * 2.6);
 }
 
-/* 29LAND Theme - Primary: #15803D (Tailwind Green 700) */
+/* Vincent Theme - Primary: #15803D (Tailwind Green 700) */
 :root {
   --background: oklch(0.985 0.002 160);
   --foreground: oklch(0.145 0.005 160);

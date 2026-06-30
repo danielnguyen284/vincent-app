@@ -23,7 +23,7 @@ serwist.addEventListeners();
 
 self.addEventListener("push", (event) => {
   const data = event.data?.json() ?? {};
-  const title = data.title || "29LAND Notification";
+  const title = data.title || "Vincent Notification";
   const options = {
     body: data.body || "",
     icon: "/icons/icon-192x192.png",

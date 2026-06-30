@@ -51,10 +51,7 @@ const BrandLogo = ({ className = "" }: { className?: string }) => (
     <Building2 className="h-7 w-7 text-primary shrink-0" />
     <div className="flex flex-col text-left">
       <span className="text-sm font-bold tracking-wide text-primary leading-snug">
-        Quản lý & Vận hành 29LAND
-      </span>
-      <span className="text-[8px] font-bold text-muted-foreground/80 mt-0.5 uppercase tracking-widest">
-        by Hoàng Dũng
+        Quản lý & Vận hành Vincent
       </span>
     </div>
   </div>
@@ -309,7 +306,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
             </nav>
             
             <div className="mt-auto p-4 text-center text-xs text-muted-foreground">
-              v1.0.0 (29LAND by Hoàng Dũng)
+              Vincent v1.0.0
             </div>
           </div>
         </>
