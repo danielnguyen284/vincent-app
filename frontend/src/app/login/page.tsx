@@ -7,9 +7,10 @@ import { Label } from "@/components/ui/label";
 import { apiFetch } from "@/lib/api";
 import { hasAnyRole, hasRole } from "@/lib/roles";
 import { LoginResponse } from "@/lib/types";
-import { Building2, Loader2, Lock, Phone } from "lucide-react";
+import { Loader2, Lock, Phone } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+
 
 export default function LoginPage() {
   const router = useRouter();
@@ -54,7 +55,16 @@ export default function LoginPage() {
       <Card className="w-full max-w-sm">
         <CardHeader className="text-center pb-8 pt-8">
           <div className="flex items-center justify-center gap-4">
-            <Building2 className="h-12 w-12 text-primary shrink-0" />
+            <svg width={48} height={48} viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="shrink-0">
+              <defs>
+                <linearGradient id="loginLogo" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stopColor="var(--primary)" />
+                  <stop offset="100%" stopColor="#10b981" />
+                </linearGradient>
+              </defs>
+              <path d="M15,15 L32,15 L50,60 L68,15 L85,15 L50,90 Z" fill="url(#loginLogo)" />
+              <path d="M50,22 L37,34 L41,34 L41,52 L59,52 L59,34 L63,34 Z M47,42 L53,42 L53,48 L47,48 Z" fill="url(#loginLogo)" fillRule="evenodd" />
+            </svg>
             <div className="flex flex-col text-left">
               <CardTitle className="text-2xl font-bold text-primary tracking-wide leading-snug">
                 Quản lý & Vận hành Vincent

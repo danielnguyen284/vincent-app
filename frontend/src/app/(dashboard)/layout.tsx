@@ -31,6 +31,7 @@ import { Button } from "@/components/ui/button";
 import { PushNotificationHandler } from "@/components/PushNotificationHandler";
 import { NotificationCenter } from "@/components/NotificationCenter";
 import { formatRoles, hasAnyRole, hasRole } from "@/lib/roles";
+import { VincentLogo } from "@/components/vincent-logo";
 
 const navItems = [
   { href: "/dashboard", label: "Tổng quan", icon: LayoutDashboard, roles: ["ADMIN", "MANAGER", "OWNER"] },
@@ -48,7 +49,7 @@ const navItems = [
 
 const BrandLogo = ({ className = "" }: { className?: string }) => (
   <div className={`flex items-center gap-2.5 ${className}`}>
-    <Building2 className="h-7 w-7 text-primary shrink-0" />
+    <VincentLogo className="shrink-0" size={30} />
     <div className="flex flex-col text-left">
       <span className="text-sm font-bold tracking-wide text-primary leading-snug">
         Quản lý & Vận hành Vincent

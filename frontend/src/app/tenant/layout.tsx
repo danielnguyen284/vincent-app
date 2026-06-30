@@ -12,11 +12,11 @@ import {
   LogOut, 
   Sun, 
   Moon,
-  Building2,
   User
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { hasRole } from "@/lib/roles";
+import { VincentLogo } from "@/components/vincent-logo";
 
 const tenantNavItems = [
   { href: "/tenant/dashboard", label: "Phòng của tôi", icon: Home },
@@ -67,8 +67,8 @@ export default function TenantLayout({ children }: { children: React.ReactNode }
       {/* SIDEBAR FOR IPAD / LAPTOP */}
       <aside className="hidden md:flex flex-col w-64 border-r bg-background sticky top-0 h-screen shrink-0">
         {/* Brand header */}
-        <div className="flex h-16 items-center gap-2 border-b px-6">
-          <Building2 className="h-6 w-6 text-primary shrink-0 animate-pulse" />
+        <div className="flex h-16 items-center gap-2.5 border-b px-6">
+          <VincentLogo size={24} className="shrink-0" />
           <div className="flex flex-col text-left">
             <span className="text-[9px] font-bold text-muted-foreground uppercase tracking-widest leading-none">Cổng Khách Thuê</span>
             <span className="text-sm font-extrabold tracking-wide text-primary leading-tight">Vincent Portal</span>
@@ -138,7 +138,7 @@ export default function TenantLayout({ children }: { children: React.ReactNode }
         {/* TOP HEADER FOR MOBILE ONLY */}
         <header className="sticky top-0 z-30 flex h-14 items-center justify-between border-b bg-background/80 backdrop-blur-md px-4 shadow-sm md:hidden shrink-0">
           <div className="flex items-center gap-2">
-            <Building2 className="h-6 w-6 text-primary shrink-0 animate-pulse" />
+            <VincentLogo size={24} className="shrink-0" />
             <div className="flex flex-col text-left">
               <span className="text-[9px] font-bold text-muted-foreground uppercase tracking-widest leading-none">Cổng Khách Thuê</span>
               <span className="text-sm font-extrabold tracking-wide text-primary leading-tight">Vincent Portal</span>
