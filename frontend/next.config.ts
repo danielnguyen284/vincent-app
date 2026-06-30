@@ -7,11 +7,15 @@ const withSerwist = withSerwistInit({
   disable: process.env.NODE_ENV === "development",
 });
 
+const isVercel = !!process.env.VERCEL;
+
 const nextConfig: NextConfig = {
   /* config options here hehe*/
-  output: "standalone",
+  ...(isVercel ? {} : {
+    output: "standalone",
+    outputFileTracingRoot: process.cwd(),
+  }),
   reactCompiler: true,
-  outputFileTracingRoot: process.cwd(),
   turbopack: {},
   eslint: { ignoreDuringBuilds: true },
   typescript: { ignoreBuildErrors: true },
