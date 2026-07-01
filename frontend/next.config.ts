@@ -17,7 +17,6 @@ const nextConfig: NextConfig = {
   }),
   reactCompiler: true,
   turbopack: {},
-  eslint: { ignoreDuringBuilds: true },
   typescript: { ignoreBuildErrors: true },
   async rewrites() {
     const backendUrl = process.env.BACKEND_INTERNAL_URL || "http://backend:3001";

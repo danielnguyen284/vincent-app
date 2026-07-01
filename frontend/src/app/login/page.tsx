@@ -63,7 +63,7 @@ export default function LoginPage() {
                 </linearGradient>
               </defs>
               <path d="M15,15 L32,15 L50,60 L68,15 L85,15 L50,90 Z" fill="url(#loginLogo)" />
-              <path d="M50,22 L37,34 L41,34 L41,52 L59,52 L59,34 L63,34 Z M47,42 L53,42 L53,48 L47,48 Z" fill="url(#loginLogo)" fillRule="evenodd" />
+              <path d="M50,22 L37,34 L41,34 L41,52 L59,52 L59,34 L63,34 L58,29.4 L58,23 L55.5,23 L55.5,27 Z M47,42 L53,42 L53,48 L47,48 Z" fill="url(#loginLogo)" fillRule="evenodd" />
             </svg>
             <div className="flex flex-col text-left">
               <CardTitle className="text-2xl font-bold text-primary tracking-wide leading-snug">

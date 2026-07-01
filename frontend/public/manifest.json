@@ -1,4 +1,6 @@
 {
+  "id": "/",
+  "scope": "/",
   "name": "Vincent - Quản lý nhà trọ",
   "short_name": "Vincent",
   "description": "Hệ thống quản lý vận hành nhà trọ",

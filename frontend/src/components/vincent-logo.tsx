@@ -31,9 +31,9 @@ export function VincentLogo({ className = "", size = 32, animated = false }: Vin
         fill="url(#vincentLogoGrad)"
       />
 
-      {/* Sleek nested house shape with cut-out window */}
+      {/* Sleek nested house shape with cut-out window and chimney */}
       <path
-        d="M50,22 L37,34 L41,34 L41,52 L59,52 L59,34 L63,34 Z M47,42 L53,42 L53,48 L47,48 Z"
+        d="M50,22 L37,34 L41,34 L41,52 L59,52 L59,34 L63,34 L58,29.4 L58,23 L55.5,23 L55.5,27 Z M47,42 L53,42 L53,48 L47,48 Z"
         fill="url(#vincentLogoGrad)"
         fillRule="evenodd"
       />

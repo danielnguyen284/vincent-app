@@ -44,7 +44,7 @@ export default function Home() {
           </linearGradient>
         </defs>
         <path d="M15,15 L32,15 L50,60 L68,15 L85,15 L50,90 Z" fill="url(#homeLogo)" />
-        <path d="M50,22 L37,34 L41,34 L41,52 L59,52 L59,34 L63,34 Z M47,42 L53,42 L53,48 L47,48 Z" fill="url(#homeLogo)" fillRule="evenodd" />
+        <path d="M50,22 L37,34 L41,34 L41,52 L59,52 L59,34 L63,34 L58,29.4 L58,23 L55.5,23 L55.5,27 Z M47,42 L53,42 L53,48 L47,48 Z" fill="url(#homeLogo)" fillRule="evenodd" />
       </svg>
       <Loader2 className="h-6 w-6 animate-spin text-muted-foreground" />
     </main>
